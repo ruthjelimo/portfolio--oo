@@ -1,0 +1,74 @@
+body{
+    height:100%;
+    font-weight: 200;
+    font-size:1.5rem;
+    color: #444;
+}
+.intro-left{
+    background: url(Images/black.jpg);
+    position: fixed;
+    left: 0;
+    width: 33.3%;
+    height: 100%;
+    color: white;
+}
+.avatar{
+    width: 10rem;
+    height: 10rem;
+    margin:1rem;
+    border-radius: 50%;
+}
+@media(max-width:768px){
+    .intro-left{
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width:100%;
+    }
+}
+.full-height{
+    height: 100%;
+}
+.quote{
+    float: right;
+    margin-top: 2rem; 
+    font-size: 1.2rem;
+}
+.intro{
+    margin: 2rem;
+}
+.display-4{
+    margin-top: 7rem;
+}
+.tools{
+    height: 40vh;
+}
+/* .link{
+    float: right;
+    color: #444;
+    text-decoration: none;
+    margin-right: 3px;
+   
+} */
+.blog{
+    margin-top: 5rem;
+}
+.contact{
+    margin-top:10rem;
+    margin-left: 5%;
+    width: 40rem;
+}
+.button2{
+    float: right;
+}
+.text{
+    margin-left: 36%;
+    color: #444;
+}
+.footer{
+    background-color: #fff;
+    font-size: 1rem;
+}
+.panel-right{
+    background-color: #eee;
+}
